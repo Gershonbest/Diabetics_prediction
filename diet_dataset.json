@@ -1,0 +1,2484 @@
+
+
+{
+   "Bajra": [
+      {
+         "GI": 28,
+         "Grams": 100,
+         "Protein": 11.6,
+         "Carb": 67,
+         "DF": 1,
+         "TF": 5,
+         "GL": 19,
+         "CAL": 359.4,
+         "FF": 1.87,
+         "FIELD11": ""
+      }
+   ],
+   "Jowar": [
+      {
+         "GI": 62,
+         "Grams": 100,
+         "Protein": 9.97,
+         "Carb": 24.4,
+         "DF": 10.22,
+         "TF": 1.9,
+         "GL": 15,
+         "CAL": 154.58,
+         "FF": 3,
+         "FIELD11": ""
+      }
+   ],
+   "Dry Maize": [
+      {
+         "GI": 56,
+         "Grams": 100,
+         "Protein": 11.1,
+         "Carb": 21,
+         "DF": 2.4,
+         "TF": 3.6,
+         "GL": 12,
+         "CAL": 160.8,
+         "FF": 2.37,
+         "FIELD11": ""
+      }
+   ],
+   "Ragi": [
+      {
+         "GI": 84,
+         "Grams": 100,
+         "Protein": 7.3,
+         "Carb": 72,
+         "DF": 3.6,
+         "TF": 1.3,
+         "GL": 60,
+         "CAL": 328.9,
+         "FF": 1.73,
+         "FIELD11": ""
+      }
+   ],
+   "Rice ": [
+      {
+         "GI": 73,
+         "Grams": 100,
+         "Protein": 6.6,
+         "Carb": 79,
+         "DF": 1.4,
+         "TF": 0.6,
+         "GL": 58,
+         "CAL": 347.8,
+         "FF": 1.64,
+         "FIELD11": ""
+      }
+   ],
+   "Wheat": [
+      {
+         "GI": 72,
+         "Grams": 100,
+         "Protein": 12.1,
+         "Carb": 72,
+         "DF": 11,
+         "TF": 2.5,
+         "GL": 52,
+         "CAL": 358.9,
+         "FF": 2.72,
+         "FIELD11": ""
+      }
+   ],
+   "Bengal Gram": [
+      {
+         "GI": 8,
+         "Grams": 100,
+         "Protein": 20.8,
+         "Carb": 57,
+         "DF": 12,
+         "TF": 5.6,
+         "GL": 5,
+         "CAL": 361.6,
+         "FF": 3.4,
+         "FIELD11": ""
+      }
+   ],
+   "Black Gram": [
+      {
+         "GI": 43,
+         "Grams": 100,
+         "Protein": 24,
+         "Carb": 59,
+         "DF": 17,
+         "TF": 1.4,
+         "GL": 25,
+         "CAL": 344.6,
+         "FF": 5,
+         "FIELD11": ""
+      }
+   ],
+   "Green Gram": [
+      {
+         "GI": 29,
+         "Grams": 100,
+         "Protein": 24.5,
+         "Carb": 5.94,
+         "DF": 15.4,
+         "TF": 1.2,
+         "GL": 2,
+         "CAL": 132.56,
+         "FF": 5,
+         "FIELD11": ""
+      },
+      {
+         "GI": 48,
+         "Grams": 100,
+         "Protein": 7,
+         "Carb": 19.2,
+         "DF": 5.2,
+         "TF": 0.4,
+         "GL": 9,
+         "CAL": 108.4,
+         "FF": 2.62,
+         "FIELD11": ""
+      }
+   ],
+   "Lentil": [
+      {
+         "GI": 32,
+         "Grams": 100,
+         "Protein": 25.1,
+         "Carb": 17.5,
+         "DF": 7.9,
+         "TF": 0.7,
+         "GL": 6,
+         "CAL": 176.7,
+         "FF": 3.29,
+         "FIELD11": ""
+      }
+   ],
+   "Red Gram": [
+      {
+         "GI": 11,
+         "Grams": 100,
+         "Protein": 22.3,
+         "Carb": 63,
+         "DF": 15,
+         "TF": 1.7,
+         "GL": 7,
+         "CAL": 356.5,
+         "FF": 4.5,
+         "FIELD11": ""
+      }
+   ],
+   "Green Leafy Vegetables": [
+      {
+         "GI": 4,
+         "Grams": 100,
+         "Protein": 3.8,
+         "Carb": 3.6,
+         "DF": 2.2,
+         "TF": 0.8,
+         "GL": 0,
+         "CAL": 36.8,
+         "FF": 4.16,
+         "FIELD11": ""
+      }
+   ],
+   "Other Vegetables": [
+      {
+         "GI": 46,
+         "Grams": 100,
+         "Protein": 1.8,
+         "Carb": 9.3,
+         "DF": 3,
+         "TF": 0.2,
+         "GL": 4,
+         "CAL": 46.2,
+         "FF": 3.57,
+         "FIELD11": ""
+      }
+   ],
+   "Carrot": [
+      {
+         "GI": 71,
+         "Grams": 100,
+         "Protein": 0.9,
+         "Carb": 9.6,
+         "DF": 2.8,
+         "TF": 0.2,
+         "GL": 7,
+         "CAL": 43.8,
+         "FF": 3.63,
+         "FIELD11": ""
+      }
+   ],
+   "Potato": [
+      {
+         "GI": 53,
+         "Grams": 100,
+         "Protein": 1.6,
+         "Carb": 20.1,
+         "DF": 1.8,
+         "TF": 0.1,
+         "GL": 11,
+         "CAL": 87.7,
+         "FF": 2.52,
+         "FIELD11": ""
+      },
+      {
+         "GI": 70,
+         "Grams": 100,
+         "Protein": 1.81,
+         "Carb": 19.52,
+         "DF": 1.7,
+         "TF": 2.24,
+         "GL": 14,
+         "CAL": 105.48,
+         "FF": 2.31,
+         "FIELD11": ""
+      }
+   ],
+   "Onion": [
+      {
+         "GI": 15,
+         "Grams": 100,
+         "Protein": 1.2,
+         "Carb": 11,
+         "DF": 3,
+         "TF": 0.1,
+         "GL": 2,
+         "CAL": 49.7,
+         "FF": 3.4,
+         "FIELD11": ""
+      },
+      {
+         "GI": 10,
+         "Grams": 100,
+         "Protein": 0.92,
+         "Carb": 10.11,
+         "DF": 1.4,
+         "TF": 0.08,
+         "GL": 1,
+         "CAL": 44.84,
+         "FF": 3.58,
+         "FIELD11": ""
+      }
+   ],
+   "Groundnut": [
+      {
+         "GI": 14,
+         "Grams": 100,
+         "Protein": 25.3,
+         "Carb": 16.1,
+         "DF": 8.5,
+         "TF": 40.1,
+         "GL": 2,
+         "CAL": 526.5,
+         "FF": 2.31,
+         "FIELD11": ""
+      }
+   ],
+   "Apple": [
+      {
+         "GI": 38,
+         "Grams": 100,
+         "Protein": 0.2,
+         "Carb": 30,
+         "DF": 4.9,
+         "TF": 0.5,
+         "GL": 11,
+         "CAL": 125.3,
+         "FF": 2.12,
+         "FIELD11": ""
+      }
+   ],
+   "Banana": [
+      {
+         "GI": 51,
+         "Grams": 100,
+         "Protein": 1.2,
+         "Carb": 27,
+         "DF": 3,
+         "TF": 0.3,
+         "GL": 14,
+         "CAL": 115.5,
+         "FF": 2.19,
+         "FIELD11": ""
+      }
+   ],
+   "Lime & Orange": [
+      {
+         "GI": 44,
+         "Grams": 100,
+         "Protein": 1.1,
+         "Carb": 19,
+         "DF": 3,
+         "TF": 0.6,
+         "GL": 8,
+         "CAL": 85.8,
+         "FF": 2.54,
+         "FIELD11": ""
+      }
+   ],
+   "Papaya": [
+      {
+         "GI": 58,
+         "Grams": 100,
+         "Protein": 0.6,
+         "Carb": 30,
+         "DF": 2.7,
+         "TF": 0.1,
+         "GL": 17,
+         "CAL": 123.3,
+         "FF": 2.09,
+         "FIELD11": ""
+      }
+   ],
+   "Tomato": [
+      {
+         "GI": 38,
+         "Grams": 100,
+         "Protein": 0.9,
+         "Carb": 5.8,
+         "DF": 2.2,
+         "TF": 0.2,
+         "GL": 2,
+         "CAL": 28.6,
+         "FF": 4.66,
+         "FIELD11": ""
+      },
+      {
+         "GI": 15,
+         "Grams": 100,
+         "Protein": 0.86,
+         "Carb": 3.92,
+         "DF": 1.2,
+         "TF": 0.2,
+         "GL": 1,
+         "CAL": 20.92,
+         "FF": 5,
+         "FIELD11": ""
+      }
+   ],
+   "Meat": [
+      {
+         "GI": 0,
+         "Grams": 100,
+         "Protein": 18.5,
+         "Carb": 0,
+         "DF": 0,
+         "TF": 13.3,
+         "GL": 0,
+         "CAL": 193.7,
+         "FF": 2.57,
+         "FIELD11": ""
+      }
+   ],
+   "Chicken": [
+      {
+         "GI": 0,
+         "Grams": 100,
+         "Protein": 25.9,
+         "Carb": 0,
+         "DF": 0,
+         "TF": 0.6,
+         "GL": 0,
+         "CAL": 109,
+         "FF": 3.47,
+         "FIELD11": ""
+      }
+   ],
+   "Liver": [
+      {
+         "GI": 0,
+         "Grams": 100,
+         "Protein": 19.3,
+         "Carb": 3.8,
+         "DF": 0,
+         "TF": 7.5,
+         "GL": 0,
+         "CAL": 159.9,
+         "FF": 2.77,
+         "FIELD11": ""
+      }
+   ],
+   "Egg": [
+      {
+         "GI": 0,
+         "Grams": 100,
+         "Protein": 13.3,
+         "Carb": 1.1,
+         "DF": 0,
+         "TF": 13.3,
+         "GL": 0,
+         "CAL": 177.3,
+         "FF": 2.38,
+         "FIELD11": ""
+      }
+   ],
+   "Fish": [
+      {
+         "GI": 38,
+         "Grams": 100,
+         "Protein": 18.9,
+         "Carb": 0,
+         "DF": 0,
+         "TF": 1.9,
+         "GL": 0,
+         "CAL": 92.7,
+         "FF": 3.31,
+         "FIELD11": ""
+      }
+   ],
+   "Idiyappam": [
+      {
+         "GI": 59,
+         "Grams": 100,
+         "Protein": 3.6,
+         "Carb": 48.42,
+         "DF": 1.5,
+         "TF": 1.35,
+         "GL": 29,
+         "CAL": 220.23,
+         "FF": 1.75,
+         "FIELD11": ""
+      }
+   ],
+   "Puttu": [
+      {
+         "GI": 63,
+         "Grams": 100,
+         "Protein": 2.97,
+         "Carb": 39.99,
+         "DF": 1.2,
+         "TF": 1.22,
+         "GL": 25,
+         "CAL": 182.82,
+         "FF": 1.85,
+         "FIELD11": ""
+      }
+   ],
+   "Idly": [
+      {
+         "GI": 60,
+         "Grams": 100,
+         "Protein": 6.36,
+         "Carb": 26.31,
+         "DF": 5,
+         "TF": 0.62,
+         "GL": 16,
+         "CAL": 136.26,
+         "FF": 2.35,
+         "FIELD11": ""
+      }
+   ],
+   "Rava Idly": [
+      {
+         "GI": 51,
+         "Grams": 100,
+         "Protein": 8,
+         "Carb": 65,
+         "DF": 7,
+         "TF": 2.9,
+         "GL": 33,
+         "CAL": 318.1,
+         "FF": 1.97,
+         "FIELD11": ""
+      }
+   ],
+   "Dosa": [
+      {
+         "GI": 66,
+         "Grams": 50,
+         "Protein": 2.7,
+         "Carb": 18.8,
+         "DF": 1.1,
+         "TF": 5.2,
+         "GL": 12,
+         "CAL": 132.8,
+         "FF": 2.11,
+         "FIELD11": ""
+      }
+   ],
+   "Appam": [
+      {
+         "GI": 60,
+         "Grams": 100,
+         "Protein": 1.6,
+         "Carb": 19.2,
+         "DF": 0.9,
+         "TF": 1.8,
+         "GL": 12,
+         "CAL": 99.4,
+         "FF": 2.36,
+         "FIELD11": ""
+      }
+   ],
+   "Ragi Semiya Upma": [
+      {
+         "GI": 35,
+         "Grams": 100,
+         "Protein": 3,
+         "Carb": 23,
+         "DF": 0,
+         "TF": 0,
+         "GL": 8,
+         "CAL": 104,
+         "FF": 2.38,
+         "FIELD11": ""
+      }
+   ],
+   "Ragi dosa": [
+      {
+         "GI": 59,
+         "Grams": 50,
+         "Protein": 3.2,
+         "Carb": 18,
+         "DF": 3,
+         "TF": 5.4,
+         "GL": 11,
+         "CAL": 133.4,
+         "FF": 2.15,
+         "FIELD11": ""
+      }
+   ],
+   "Onion Roast": [
+      {
+         "GI": 37,
+         "Grams": 50,
+         "Protein": 1.1,
+         "Carb": 9.3,
+         "DF": 1.7,
+         "TF": 0.1,
+         "GL": 3,
+         "CAL": 42.5,
+         "FF": 3.7,
+         "FIELD11": ""
+      }
+   ],
+   "Green Gram Dosa": [
+      {
+         "GI": 63,
+         "Grams": 50,
+         "Protein": 4.3,
+         "Carb": 18.1,
+         "DF": 1.2,
+         "TF": 5.2,
+         "GL": 11,
+         "CAL": 136.4,
+         "FF": 2.17,
+         "FIELD11": ""
+      }
+   ],
+   "Rava Dosa": [
+      {
+         "GI": 68,
+         "Grams": 50,
+         "Protein": 2,
+         "Carb": 16,
+         "DF": 0.2,
+         "TF": 7.6,
+         "GL": 11,
+         "CAL": 140.4,
+         "FF": 2.02,
+         "FIELD11": ""
+      }
+   ],
+   "Pongal": [
+      {
+         "GI": 55,
+         "Grams": 100,
+         "Protein": 3.8,
+         "Carb": 48.7,
+         "DF": 1.4,
+         "TF": 6.9,
+         "GL": 27,
+         "CAL": 272.1,
+         "FF": 1.63,
+         "FIELD11": ""
+      }
+   ],
+   "Upma": [
+      {
+         "GI": 68,
+         "Grams": 100,
+         "Protein": 4,
+         "Carb": 31,
+         "DF": 0.3,
+         "TF": 5.8,
+         "GL": 21,
+         "CAL": 192.2,
+         "FF": 1.87,
+         "FIELD11": ""
+      }
+   ],
+   "Kichdi": [
+      {
+         "GI": 30,
+         "Grams": 100,
+         "Protein": 12.4,
+         "Carb": 58,
+         "DF": 6,
+         "TF": 4.2,
+         "GL": 17,
+         "CAL": 319.4,
+         "FF": 2.11,
+         "FIELD11": ""
+      }
+   ],
+   "Adai": [
+      {
+         "GI": 66,
+         "Grams": 50,
+         "Protein": 7,
+         "Carb": 29,
+         "DF": 6,
+         "TF": 5,
+         "GL": 19,
+         "CAL": 189,
+         "FF": 2.16,
+         "FIELD11": ""
+      }
+   ],
+   "Wheat Dosa": [
+      {
+         "GI": 54,
+         "Grams": 50,
+         "Protein": 1.8,
+         "Carb": 9.2,
+         "DF": 1.8,
+         "TF": 1.1,
+         "GL": 5,
+         "CAL": 53.9,
+         "FF": 3.27,
+         "FIELD11": ""
+      }
+   ],
+   "Soup ": [
+      {
+         "GI": 48,
+         "Grams": 18,
+         "Protein": 1.1,
+         "Carb": 3.7,
+         "DF": 1.9,
+         "TF": 1.5,
+         "GL": 2,
+         "CAL": 32.7,
+         "FF": 4.31,
+         "FIELD11": ""
+      }
+   ],
+   "Lime ": [
+      {
+         "GI": 24,
+         "Grams": 100,
+         "Protein": 0.38,
+         "Carb": 8.63,
+         "DF": 0.4,
+         "TF": 0,
+         "GL": 2,
+         "CAL": 36.04,
+         "FF": 4.03,
+         "FIELD11": ""
+      }
+   ],
+   "Salad": [
+      {
+         "GI": 15,
+         "Grams": 163,
+         "Protein": 3.7,
+         "Carb": 11,
+         "DF": 2.7,
+         "TF": 6.8,
+         "GL": 2,
+         "CAL": 120,
+         "FF": 2.27,
+         "FIELD11": ""
+      }
+   ],
+   "Diabetic Oats Biscuits": [
+      {
+         "GI": 31,
+         "Grams": 30,
+         "Protein": 2.3,
+         "Carb": 12,
+         "DF": 1.5,
+         "TF": 3.5,
+         "GL": 4,
+         "CAL": 88.7,
+         "FF": 2.54,
+         "FIELD11": ""
+      }
+   ],
+   "Chicken Biriyani": [
+      {
+         "GI": 70,
+         "Grams": 100,
+         "Protein": 6.36,
+         "Carb": 19,
+         "DF": 0.9,
+         "TF": 3.93,
+         "GL": 13,
+         "CAL": 136.81,
+         "FF": 2.27,
+         "FIELD11": ""
+      }
+   ],
+   "Mutton Biriyani": [
+      {
+         "GI": 72,
+         "Grams": 100,
+         "Protein": 5.84,
+         "Carb": 19,
+         "DF": 0.9,
+         "TF": 4.34,
+         "GL": 14,
+         "CAL": 138.42,
+         "FF": 2.23,
+         "FIELD11": ""
+      }
+   ],
+   "Pulao": [
+      {
+         "GI": 34,
+         "Grams": 100,
+         "Protein": 3.2,
+         "Carb": 19,
+         "DF": 0,
+         "TF": 3.4,
+         "GL": 6,
+         "CAL": 119.4,
+         "FF": 2.24,
+         "FIELD11": ""
+      }
+   ],
+   "Coconut Rice": [
+      {
+         "GI": 41,
+         "Grams": 100,
+         "Protein": 2.54,
+         "Carb": 20.52,
+         "DF": 1,
+         "TF": 8.09,
+         "GL": 8,
+         "CAL": 165.05,
+         "FF": 1.91,
+         "FIELD11": ""
+      }
+   ],
+   "Tomato Rice": [
+      {
+         "GI": 50,
+         "Grams": 100,
+         "Protein": 1.98,
+         "Carb": 18.56,
+         "DF": 1.2,
+         "TF": 3.81,
+         "GL": 9,
+         "CAL": 116.45,
+         "FF": 2.21,
+         "FIELD11": ""
+      }
+   ],
+   "Tamarind Rice": [
+      {
+         "GI": 50,
+         "Grams": 100,
+         "Protein": 3.7,
+         "Carb": 25.5,
+         "DF": 1.3,
+         "TF": 6.5,
+         "GL": 13,
+         "CAL": 175.3,
+         "FF": 1.92,
+         "FIELD11": ""
+      }
+   ],
+   "Lemon Rice": [
+      {
+         "GI": 50,
+         "Grams": 100,
+         "Protein": 3,
+         "Carb": 31.48,
+         "DF": 0.7,
+         "TF": 0.55,
+         "GL": 16,
+         "CAL": 142.87,
+         "FF": 2.06,
+         "FIELD11": ""
+      }
+   ],
+   "Ven Pongal": [
+      {
+         "GI": 45,
+         "Grams": 100,
+         "Protein": 4,
+         "Carb": 23,
+         "DF": 2,
+         "TF": 2,
+         "GL": 10,
+         "CAL": 126,
+         "FF": 2.23,
+         "FIELD11": ""
+      }
+   ],
+   "Curd Rice": [
+      {
+         "GI": 50,
+         "Grams": 100,
+         "Protein": 5.7,
+         "Carb": 18.07,
+         "DF": 0.8,
+         "TF": 3.84,
+         "GL": 9,
+         "CAL": 129.64,
+         "FF": 2.29,
+         "FIELD11": ""
+      }
+   ],
+   "Sambar Rice": [
+      {
+         "GI": 50,
+         "Grams": 100,
+         "Protein": 4.85,
+         "Carb": 15.86,
+         "DF": 6.2,
+         "TF": 4.08,
+         "GL": 8,
+         "CAL": 119.56,
+         "FF": 2.47,
+         "FIELD11": ""
+      }
+   ],
+   "Veg Rice": [
+      {
+         "GI": 50,
+         "Grams": 100,
+         "Protein": 3.16,
+         "Carb": 23,
+         "DF": 1,
+         "TF": 2.53,
+         "GL": 12,
+         "CAL": 127.41,
+         "FF": 2.18,
+         "FIELD11": ""
+      }
+   ],
+   "Veg Curry": [
+      {
+         "GI": 30,
+         "Grams": 100,
+         "Protein": 2.61,
+         "Carb": 2.6,
+         "DF": 12.14,
+         "TF": 3.22,
+         "GL": 1,
+         "CAL": 49.82,
+         "FF": 4.55,
+         "FIELD11": ""
+      }
+   ],
+   "Dal cooked": [
+      {
+         "GI": 43,
+         "Grams": 100,
+         "Protein": 5.29,
+         "Carb": 13.36,
+         "DF": 4.5,
+         "TF": 3.23,
+         "GL": 6,
+         "CAL": 103.67,
+         "FF": 2.56,
+         "FIELD11": ""
+      }
+   ],
+   "Medhu Vada": [
+      {
+         "GI": 41,
+         "Grams": 100,
+         "Protein": 13.75,
+         "Carb": 42.17,
+         "DF": 15.6,
+         "TF": 10.02,
+         "GL": 17,
+         "CAL": 313.86,
+         "FF": 4.39,
+         "FIELD11": ""
+      }
+   ],
+   "Paruppu Vada": [
+      {
+         "GI": 46,
+         "Grams": 100,
+         "Protein": 4.8,
+         "Carb": 18.5,
+         "DF": 4.4,
+         "TF": 1.4,
+         "GL": 9,
+         "CAL": 105.8,
+         "FF": 2.51,
+         "FIELD11": ""
+      }
+   ],
+   "Bajji Bonda": [
+      {
+         "GI": 45,
+         "Grams": 100,
+         "Protein": 11.25,
+         "Carb": 33.9,
+         "DF": 5.9,
+         "TF": 15.63,
+         "GL": 15,
+         "CAL": 321.27,
+         "FF": 2.01,
+         "FIELD11": ""
+      }
+   ],
+   "Fish Gravy": [
+      {
+         "GI": 53,
+         "Grams": 100,
+         "Protein": 12.4,
+         "Carb": 1.9,
+         "DF": 0.5,
+         "TF": 4.59,
+         "GL": 1,
+         "CAL": 98.51,
+         "FF": 2.91,
+         "FIELD11": ""
+      }
+   ],
+   "Chicken Curry": [
+      {
+         "GI": 70,
+         "Grams": 100,
+         "Protein": 11.47,
+         "Carb": 4.74,
+         "DF": 0.9,
+         "TF": 6.67,
+         "GL": 3,
+         "CAL": 124.87,
+         "FF": 2.61,
+         "FIELD11": ""
+      }
+   ],
+   "Mutton Curry": [
+      {
+         "GI": 72,
+         "Grams": 100,
+         "Protein": 11.96,
+         "Carb": 1.57,
+         "DF": 0.4,
+         "TF": 5.86,
+         "GL": 1,
+         "CAL": 106.86,
+         "FF": 2.8,
+         "FIELD11": ""
+      }
+   ],
+   "Prawn Gravy": [
+      {
+         "GI": 52,
+         "Grams": 100,
+         "Protein": 14.42,
+         "Carb": 2.43,
+         "DF": 0.5,
+         "TF": 3.46,
+         "GL": 1,
+         "CAL": 98.54,
+         "FF": 3.02,
+         "FIELD11": ""
+      }
+   ],
+   "Sambar  ": [
+      {
+         "GI": 24,
+         "Grams": 253,
+         "Protein": 7.1,
+         "Carb": 26,
+         "DF": 7.3,
+         "TF": 0.7,
+         "GL": 6,
+         "CAL": 138.7,
+         "FF": 2.53,
+         "FIELD11": ""
+      }
+   ],
+   "Coconut Chutney": [
+      {
+         "GI": 35,
+         "Grams": 19,
+         "Protein": 0.6,
+         "Carb": 2.5,
+         "DF": 0.8,
+         "TF": 2.2,
+         "GL": 1,
+         "CAL": 32.2,
+         "FF": 4.32,
+         "FIELD11": ""
+      }
+   ],
+   "Onion Chutney": [
+      {
+         "GI": 43,
+         "Grams": 35,
+         "Protein": 0.4,
+         "Carb": 2.2,
+         "DF": 0.3,
+         "TF": 2.4,
+         "GL": 1,
+         "CAL": 32,
+         "FF": 4.32,
+         "FIELD11": ""
+      }
+   ],
+   "Mint Chutney": [
+      {
+         "GI": 27,
+         "Grams": 25,
+         "Protein": 0.3,
+         "Carb": 2.1,
+         "DF": 0.4,
+         "TF": 0.1,
+         "GL": 1,
+         "CAL": 10.5,
+         "FF": 5,
+         "FIELD11": ""
+      }
+   ],
+   "Coriander Chutney": [
+      {
+         "GI": 32,
+         "Grams": 15,
+         "Protein": 0.3,
+         "Carb": 3.4,
+         "DF": 0.2,
+         "TF": 1.6,
+         "GL": 1,
+         "CAL": 29.2,
+         "FF": 4.56,
+         "FIELD11": ""
+      }
+   ],
+   "Cluster Beans Seeni Avarai": [
+      {
+         "GI": 15,
+         "Grams": 130,
+         "Protein": 3.9,
+         "Carb": 7,
+         "DF": 5,
+         "TF": 0.4,
+         "GL": 1,
+         "CAL": 47.2,
+         "FF": 3.7,
+         "FIELD11": ""
+      }
+   ],
+   "Cabbage": [
+      {
+         "GI": 10,
+         "Grams": 100,
+         "Protein": 1.44,
+         "Carb": 5.58,
+         "DF": 2.3,
+         "TF": 0.12,
+         "GL": 1,
+         "CAL": 29.16,
+         "FF": 4.63,
+         "FIELD11": ""
+      }
+   ],
+   "Spinach": [
+      {
+         "GI": 15,
+         "Grams": 100,
+         "Protein": 2.66,
+         "Carb": 3.63,
+         "DF": 2.2,
+         "TF": 0.39,
+         "GL": 1,
+         "CAL": 28.67,
+         "FF": 4.74,
+         "FIELD11": ""
+      }
+   ],
+   "Mushroom": [
+      {
+         "GI": 10,
+         "Grams": 100,
+         "Protein": 3.09,
+         "Carb": 3.28,
+         "DF": 1,
+         "TF": 0.34,
+         "GL": 0,
+         "CAL": 28.54,
+         "FF": 4.77,
+         "FIELD11": ""
+      }
+   ],
+   "Lettuce": [
+      {
+         "GI": 10,
+         "Grams": 100,
+         "Protein": 0.9,
+         "Carb": 2.97,
+         "DF": 1.2,
+         "TF": 0.14,
+         "GL": 0,
+         "CAL": 16.74,
+         "FF": 5,
+         "FIELD11": ""
+      }
+   ],
+   "Ladies Finger": [
+      {
+         "GI": 20,
+         "Grams": 100,
+         "Protein": 1.5,
+         "Carb": 4.5,
+         "DF": 4.2,
+         "TF": 0.2,
+         "GL": 1,
+         "CAL": 25.8,
+         "FF": 5,
+         "FIELD11": ""
+      }
+   ],
+   "Cauliflower": [
+      {
+         "GI": 15,
+         "Grams": 100,
+         "Protein": 1.98,
+         "Carb": 5.3,
+         "DF": 2.5,
+         "TF": 0.1,
+         "GL": 1,
+         "CAL": 30.02,
+         "FF": 4.58,
+         "FIELD11": ""
+      }
+   ],
+   "Bitter Gourd": [
+      {
+         "GI": 10,
+         "Grams": 100,
+         "Protein": 1,
+         "Carb": 3.7,
+         "DF": 2.8,
+         "TF": 0.17,
+         "GL": 0,
+         "CAL": 20.33,
+         "FF": 5,
+         "FIELD11": ""
+      }
+   ],
+   "Bottle Gourd": [
+      {
+         "GI": 10,
+         "Grams": 100,
+         "Protein": 0.2,
+         "Carb": 2.5,
+         "DF": 0.9,
+         "TF": 0.1,
+         "GL": 0,
+         "CAL": 11.7,
+         "FF": 5,
+         "FIELD11": ""
+      }
+   ],
+   "Beet Root": [
+      {
+         "GI": 64,
+         "Grams": 100,
+         "Protein": 1.61,
+         "Carb": 9.56,
+         "DF": 2.8,
+         "TF": 0.17,
+         "GL": 6,
+         "CAL": 46.21,
+         "FF": 3.56,
+         "FIELD11": ""
+      }
+   ],
+   "Beans": [
+      {
+         "GI": 15,
+         "Grams": 100,
+         "Protein": 2.8,
+         "Carb": 5.8,
+         "DF": 0,
+         "TF": 0,
+         "GL": 1,
+         "CAL": 34.4,
+         "FF": 4.26,
+         "FIELD11": ""
+      }
+   ],
+   "Sweet Corn": [
+      {
+         "GI": 55,
+         "Grams": 100,
+         "Protein": 3.22,
+         "Carb": 19.02,
+         "DF": 2.7,
+         "TF": 1.18,
+         "GL": 10,
+         "CAL": 99.58,
+         "FF": 2.46,
+         "FIELD11": ""
+      }
+   ],
+   "Egg Plant Brinjal": [
+      {
+         "GI": 15,
+         "Grams": 100,
+         "Protein": 1.01,
+         "Carb": 5.7,
+         "DF": 3.4,
+         "TF": 0.19,
+         "GL": 1,
+         "CAL": 28.55,
+         "FF": 4.68,
+         "FIELD11": ""
+      }
+   ],
+   "Capsicum": [
+      {
+         "GI": 15,
+         "Grams": 100,
+         "Protein": 0.99,
+         "Carb": 6.03,
+         "DF": 2,
+         "TF": 0.3,
+         "GL": 1,
+         "CAL": 30.78,
+         "FF": 4.46,
+         "FIELD11": ""
+      }
+   ],
+   "Cucumber": [
+      {
+         "GI": 15,
+         "Grams": 100,
+         "Protein": 0.65,
+         "Carb": 3.63,
+         "DF": 0.5,
+         "TF": 0.11,
+         "GL": 1,
+         "CAL": 18.11,
+         "FF": 5,
+         "FIELD11": ""
+      }
+   ],
+   "Green Peas": [
+      {
+         "GI": 15,
+         "Grams": 100,
+         "Protein": 5.42,
+         "Carb": 14.46,
+         "DF": 5.1,
+         "TF": 0.4,
+         "GL": 2,
+         "CAL": 83.12,
+         "FF": 2.86,
+         "FIELD11": ""
+      }
+   ],
+   "Pumpkin": [
+      {
+         "GI": 75,
+         "Grams": 100,
+         "Protein": 1,
+         "Carb": 6.5,
+         "DF": 0.5,
+         "TF": 0.1,
+         "GL": 5,
+         "CAL": 30.9,
+         "FF": 4.44,
+         "FIELD11": ""
+      }
+   ],
+   "Ridge Gourd Peerkangai": [
+      {
+         "GI": 10,
+         "Grams": 100,
+         "Protein": 1,
+         "Carb": 6.5,
+         "DF": 0.5,
+         "TF": 0.1,
+         "GL": 1,
+         "CAL": 30.9,
+         "FF": 4.44,
+         "FIELD11": ""
+      }
+   ],
+   "Broad Beans Avarai": [
+      {
+         "GI": 79,
+         "Grams": 100,
+         "Protein": 6.95,
+         "Carb": 17.97,
+         "DF": 4.9,
+         "TF": 8.32,
+         "GL": 14,
+         "CAL": 174.56,
+         "FF": 2.16,
+         "FIELD11": ""
+      }
+   ],
+   "Cilantro Coriander": [
+      {
+         "GI": 32,
+         "Grams": 100,
+         "Protein": 2.13,
+         "Carb": 3.67,
+         "DF": 2.8,
+         "TF": 0.52,
+         "GL": 1,
+         "CAL": 27.88,
+         "FF": 4.8,
+         "FIELD11": ""
+      }
+   ],
+   "Gooseberry": [
+      {
+         "GI": 15,
+         "Grams": 100,
+         "Protein": 0.88,
+         "Carb": 10.18,
+         "DF": 4.3,
+         "TF": 0.58,
+         "GL": 2,
+         "CAL": 49.46,
+         "FF": 3.43,
+         "FIELD11": ""
+      }
+   ],
+   "Little Gourd Kovaikai": [
+      {
+         "GI": 10,
+         "Grams": 100,
+         "Protein": 1.57,
+         "Carb": 3.55,
+         "DF": 0.9,
+         "TF": 0.23,
+         "GL": 0,
+         "CAL": 22.55,
+         "FF": 5,
+         "FIELD11": ""
+      }
+   ],
+   "Kohi Rabi Nookol": [
+      {
+         "GI": 20,
+         "Grams": 100,
+         "Protein": 1.7,
+         "Carb": 6.2,
+         "DF": 3.6,
+         "TF": 0.1,
+         "GL": 1,
+         "CAL": 32.5,
+         "FF": 4.38,
+         "FIELD11": ""
+      }
+   ],
+   "Plantain Vaalaikai": [
+      {
+         "GI": 38,
+         "Grams": 100,
+         "Protein": 1.3,
+         "Carb": 31.89,
+         "DF": 2.3,
+         "TF": 0.37,
+         "GL": 12,
+         "CAL": 136.09,
+         "FF": 2.03,
+         "FIELD11": ""
+      }
+   ],
+   "Radish Mullangi": [
+      {
+         "GI": 32,
+         "Grams": 100,
+         "Protein": 0.68,
+         "Carb": 3.4,
+         "DF": 1.6,
+         "TF": 0.1,
+         "GL": 1,
+         "CAL": 17.22,
+         "FF": 5,
+         "FIELD11": ""
+      }
+   ],
+   "Snake Gourd": [
+      {
+         "GI": 10,
+         "Grams": 100,
+         "Protein": 1.5,
+         "Carb": 10,
+         "DF": 2,
+         "TF": 1.5,
+         "GL": 1,
+         "CAL": 59.5,
+         "FF": 3.08,
+         "FIELD11": ""
+      }
+   ],
+   "Zucchini Suraikai": [
+      {
+         "GI": 15,
+         "Grams": 100,
+         "Protein": 1.21,
+         "Carb": 3.35,
+         "DF": 1.1,
+         "TF": 0.18,
+         "GL": 1,
+         "CAL": 19.86,
+         "FF": 5,
+         "FIELD11": ""
+      }
+   ],
+   "Sprouts": [
+      {
+         "GI": 25,
+         "Grams": 100,
+         "Protein": 3.59,
+         "Carb": 4.69,
+         "DF": 2.2,
+         "TF": 0.48,
+         "GL": 1,
+         "CAL": 37.44,
+         "FF": 4.11,
+         "FIELD11": ""
+      }
+   ],
+   "Parsnips": [
+      {
+         "GI": 97,
+         "Grams": 100,
+         "Protein": 1.2,
+         "Carb": 17.99,
+         "DF": 4.9,
+         "TF": 0.3,
+         "GL": 17,
+         "CAL": 79.46,
+         "FF": 2.7,
+         "FIELD11": ""
+      }
+   ],
+   "Millets": [
+      {
+         "GI": 54,
+         "Grams": 100,
+         "Protein": 11.02,
+         "Carb": 78.85,
+         "DF": 8.5,
+         "TF": 4.22,
+         "GL": 43,
+         "CAL": 397.46,
+         "FF": 2.18,
+         "FIELD11": ""
+      }
+   ],
+   "Roti/Chapathi": [
+      {
+         "GI": 70,
+         "Grams": 100,
+         "Protein": 9.61,
+         "Carb": 55.81,
+         "DF": 7.1,
+         "TF": 1.3,
+         "GL": 39,
+         "CAL": 273.38,
+         "FF": 2.14,
+         "FIELD11": ""
+      }
+   ],
+   "Bread": [
+      {
+         "GI": 70,
+         "Grams": 100,
+         "Protein": 7.64,
+         "Carb": 50.61,
+         "DF": 2.4,
+         "TF": 3.29,
+         "GL": 35,
+         "CAL": 262.61,
+         "FF": 1.85,
+         "FIELD11": ""
+      }
+   ],
+   "Sundal": [
+      {
+         "GI": 80,
+         "Grams": 100,
+         "Protein": 7.86,
+         "Carb": 26.78,
+         "DF": 8,
+         "TF": 3.68,
+         "GL": 21,
+         "CAL": 171.68,
+         "FF": 2.46,
+         "FIELD11": ""
+      }
+   ],
+   "Milk": [
+      {
+         "GI": 33,
+         "Grams": 100,
+         "Protein": 3.22,
+         "Carb": 4.52,
+         "DF": 0,
+         "TF": 3.25,
+         "GL": 1,
+         "CAL": 60.21,
+         "FF": 3.15,
+         "FIELD11": ""
+      }
+   ],
+   "Ice-Cream": [
+      {
+         "GI": 36,
+         "Grams": 100,
+         "Protein": 3.52,
+         "Carb": 24.4,
+         "DF": 0.7,
+         "TF": 10.72,
+         "GL": 9,
+         "CAL": 208.16,
+         "FF": 1.78,
+         "FIELD11": ""
+      }
+   ],
+   "Curd   ": [
+      {
+         "GI": 36,
+         "Grams": 100,
+         "Protein": 11.75,
+         "Carb": 3.45,
+         "DF": 0,
+         "TF": 4.2,
+         "GL": 1,
+         "CAL": 98.6,
+         "FF": 2.88,
+         "FIELD11": ""
+      }
+   ],
+   "Brown Beans": [
+      {
+         "GI": 79,
+         "Grams": 100,
+         "Protein": 15,
+         "Carb": 45,
+         "DF": 15,
+         "TF": 1,
+         "GL": 36,
+         "CAL": 249,
+         "FF": 4.33,
+         "FIELD11": ""
+      }
+   ],
+   "Frozen Beans": [
+      {
+         "GI": 51,
+         "Grams": 100,
+         "Protein": 1.3,
+         "Carb": 5.9,
+         "DF": 2,
+         "TF": 0.2,
+         "GL": 3,
+         "CAL": 30.6,
+         "FF": 4.49,
+         "FIELD11": ""
+      }
+   ],
+   "Sweet Potao": [
+      {
+         "GI": 48,
+         "Grams": 100,
+         "Protein": 1.57,
+         "Carb": 20.12,
+         "DF": 3,
+         "TF": 0.05,
+         "GL": 10,
+         "CAL": 87.21,
+         "FF": 2.54,
+         "FIELD11": ""
+      }
+   ],
+   "Yam": [
+      {
+         "GI": 51,
+         "Grams": 100,
+         "Protein": 1.49,
+         "Carb": 27.58,
+         "DF": 3.9,
+         "TF": 0.1,
+         "GL": 14,
+         "CAL": 117.18,
+         "FF": 2.21,
+         "FIELD11": ""
+      }
+   ],
+   "Soya Beans": [
+      {
+         "GI": 43,
+         "Grams": 100,
+         "Protein": 36.49,
+         "Carb": 30.16,
+         "DF": 9.3,
+         "TF": 19.94,
+         "GL": 13,
+         "CAL": 446.06,
+         "FF": 3.46,
+         "FIELD11": ""
+      }
+   ],
+   "Rajmah": [
+      {
+         "GI": 29,
+         "Grams": 100,
+         "Protein": 7.04,
+         "Carb": 19.77,
+         "DF": 7.9,
+         "TF": 7.08,
+         "GL": 6,
+         "CAL": 170.96,
+         "FF": 2.41,
+         "FIELD11": ""
+      }
+   ],
+   "Fructose": [
+      {
+         "GI": 20,
+         "Grams": 100,
+         "Protein": 0,
+         "Carb": 100,
+         "DF": 0,
+         "TF": 0,
+         "GL": 20,
+         "CAL": 400,
+         "FF": 1.25,
+         "FIELD11": ""
+      }
+   ],
+   "Glucose": [
+      {
+         "GI": 100,
+         "Grams": 100,
+         "Protein": 0,
+         "Carb": 99.98,
+         "DF": 0,
+         "TF": 0,
+         "GL": 100,
+         "CAL": 399.92,
+         "FF": 1.25,
+         "FIELD11": ""
+      }
+   ],
+   "Maltose": [
+      {
+         "GI": 105,
+         "Grams": 100,
+         "Protein": 0,
+         "Carb": 95.21,
+         "DF": 0,
+         "TF": 0,
+         "GL": 100,
+         "CAL": 380.84,
+         "FF": 1.27,
+         "FIELD11": ""
+      }
+   ],
+   "Sucrose": [
+      {
+         "GI": 83,
+         "Grams": 85,
+         "Protein": 0.4,
+         "Carb": 80,
+         "DF": 0,
+         "TF": 0.1,
+         "GL": 66,
+         "CAL": 322.5,
+         "FF": 1.37,
+         "FIELD11": ""
+      }
+   ],
+   "Honey": [
+      {
+         "GI": 78,
+         "Grams": 100,
+         "Protein": 0.3,
+         "Carb": 82.42,
+         "DF": 0.2,
+         "TF": 0,
+         "GL": 64,
+         "CAL": 330.88,
+         "FF": 1.35,
+         "FIELD11": ""
+      }
+   ],
+   "Jaggey": [
+      {
+         "GI": 87,
+         "Grams": 100,
+         "Protein": 0.09,
+         "Carb": 98.96,
+         "DF": 0,
+         "TF": 0,
+         "GL": 86,
+         "CAL": 396.2,
+         "FF": 1.25,
+         "FIELD11": ""
+      }
+   ],
+   "Tea": [
+      {
+         "GI": 0,
+         "Grams": 178,
+         "Protein": 0.52,
+         "Carb": 2.79,
+         "DF": 0,
+         "TF": 0.46,
+         "GL": 0,
+         "CAL": 17.38,
+         "FF": 5,
+         "FIELD11": ""
+      }
+   ],
+   "Coffee": [
+      {
+         "GI": 0,
+         "Grams": 30,
+         "Protein": 0.18,
+         "Carb": 4.04,
+         "DF": 0,
+         "TF": 0.08,
+         "GL": 0,
+         "CAL": 17.6,
+         "FF": 5,
+         "FIELD11": ""
+      }
+   ],
+   "Kara Kuzhambu": [
+      {
+         "GI": 20,
+         "Grams": 20,
+         "Protein": 1,
+         "Carb": 5,
+         "DF": 1,
+         "TF": 2,
+         "GL": 1,
+         "CAL": 42,
+         "FF": 3.71,
+         "FIELD11": ""
+      }
+   ],
+   "Paruppu Urundai Kuzhambu": [
+      {
+         "GI": 45,
+         "Grams": 20,
+         "Protein": 2,
+         "Carb": 8,
+         "DF": 3,
+         "TF": 2,
+         "GL": 4,
+         "CAL": 58,
+         "FF": 3.16,
+         "FIELD11": ""
+      }
+   ],
+   "Milagu Kuzhambu": [
+      {
+         "GI": 15,
+         "Grams": 50,
+         "Protein": 3,
+         "Carb": 16,
+         "DF": 9,
+         "TF": 4,
+         "GL": 2,
+         "CAL": 112,
+         "FF": 2.75,
+         "FIELD11": ""
+      }
+   ],
+   "Mor Kuzhambu": [
+      {
+         "GI": 39,
+         "Grams": 30,
+         "Protein": 0,
+         "Carb": 1,
+         "DF": 1,
+         "TF": 8,
+         "GL": 0,
+         "CAL": 76,
+         "FF": 2.63,
+         "FIELD11": ""
+      }
+   ],
+   "Vatha Kuzhambu": [
+      {
+         "GI": 40,
+         "Grams": 50,
+         "Protein": 0,
+         "Carb": 5,
+         "DF": 0,
+         "TF": 1,
+         "GL": 2,
+         "CAL": 29,
+         "FF": 4.57,
+         "FIELD11": ""
+      }
+   ],
+   "Thakkali Kuzhambu": [
+      {
+         "GI": 38,
+         "Grams": 50,
+         "Protein": 2,
+         "Carb": 9,
+         "DF": 2,
+         "TF": 0,
+         "GL": 3,
+         "CAL": 44,
+         "FF": 3.67,
+         "FIELD11": ""
+      }
+   ],
+   "Keerai Kuzhambu": [
+      {
+         "GI": 15,
+         "Grams": 50,
+         "Protein": 5,
+         "Carb": 11,
+         "DF": 6,
+         "TF": 1,
+         "GL": 2,
+         "CAL": 73,
+         "FF": 3.07,
+         "FIELD11": ""
+      }
+   ],
+   "South Indian Thali": [
+      {
+         "GI": 72,
+         "Grams": 200,
+         "Protein": 8,
+         "Carb": 87,
+         "DF": 4,
+         "TF": 12,
+         "GL": 63,
+         "CAL": 488,
+         "FF": 1.59,
+         "FIELD11": ""
+      }
+   ],
+   "Udaitha Muttai Kuzhambu": [
+      {
+         "GI": 15,
+         "Grams": 150,
+         "Protein": 7,
+         "Carb": 9,
+         "DF": 2,
+         "TF": 13,
+         "GL": 1,
+         "CAL": 181,
+         "FF": 2.05,
+         "FIELD11": ""
+      }
+   ],
+   "Cabbage Kootu": [
+      {
+         "GI": 15,
+         "Grams": 115,
+         "Protein": 5,
+         "Carb": 17,
+         "DF": 5,
+         "TF": 2,
+         "GL": 3,
+         "CAL": 106,
+         "FF": 2.54,
+         "FIELD11": ""
+      },
+      {
+         "GI": 35,
+         "Grams": 131,
+         "Protein": 5,
+         "Carb": 12,
+         "DF": 2,
+         "TF": 5,
+         "GL": 4,
+         "CAL": 113,
+         "FF": 2.4,
+         "FIELD11": ""
+      }
+   ],
+   "Egg Plant Kootu": [
+      {
+         "GI": 15,
+         "Grams": 50,
+         "Protein": 7,
+         "Carb": 21,
+         "DF": 11,
+         "TF": 1,
+         "GL": 3,
+         "CAL": 121,
+         "FF": 3.24,
+         "FIELD11": ""
+      }
+   ],
+   "Pumpkin Moong Dal Kootu": [
+      {
+         "GI": 75,
+         "Grams": 100,
+         "Protein": 4.8,
+         "Carb": 12.9,
+         "DF": 4.1,
+         "TF": 11.8,
+         "GL": 10,
+         "CAL": 177,
+         "FF": 2,
+         "FIELD11": ""
+      }
+   ],
+   "Mixed Vegetable Kootu": [
+      {
+         "GI": 35,
+         "Grams": 40,
+         "Protein": 5,
+         "Carb": 16,
+         "DF": 5,
+         "TF": 5,
+         "GL": 6,
+         "CAL": 129,
+         "FF": 2.33,
+         "FIELD11": ""
+      }
+   ],
+   "Chow Chow Kootu": [
+      {
+         "GI": 15,
+         "Grams": 150,
+         "Protein": 14,
+         "Carb": 59,
+         "DF": 29,
+         "TF": 21,
+         "GL": 9,
+         "CAL": 481,
+         "FF": 5,
+         "FIELD11": ""
+      }
+   ],
+   "Ridge Gourd Kootu": [
+      {
+         "GI": 10,
+         "Grams": 150,
+         "Protein": 3.8,
+         "Carb": 13.18,
+         "DF": 5.49,
+         "TF": 9,
+         "GL": 1,
+         "CAL": 148.92,
+         "FF": 2.16,
+         "FIELD11": ""
+      }
+   ],
+   "Snake Gourd Kootu": [
+      {
+         "GI": 10,
+         "Grams": 50,
+         "Protein": 1.3,
+         "Carb": 5.2,
+         "DF": 2.2,
+         "TF": 8.8,
+         "GL": 1,
+         "CAL": 105.2,
+         "FF": 2.29,
+         "FIELD11": ""
+      }
+   ],
+   "Spinach Kootu": [
+      {
+         "GI": 15,
+         "Grams": 35,
+         "Protein": 4,
+         "Carb": 12,
+         "DF": 2,
+         "TF": 14,
+         "GL": 2,
+         "CAL": 190,
+         "FF": 1.86,
+         "FIELD11": ""
+      }
+   ],
+   "Bottle Gourd Kootu": [
+      {
+         "GI": 10,
+         "Grams": 50,
+         "Protein": 7,
+         "Carb": 21,
+         "DF": 8,
+         "TF": 5,
+         "GL": 2,
+         "CAL": 157,
+         "FF": 2.49,
+         "FIELD11": ""
+      }
+   ],
+   "Avial ": [
+      {
+         "GI": 35,
+         "Grams": 50,
+         "Protein": 3,
+         "Carb": 10,
+         "DF": 3,
+         "TF": 14.6,
+         "GL": 4,
+         "CAL": 183.4,
+         "FF": 1.85,
+         "FIELD11": ""
+      }
+   ],
+   "Banana Flower Moong Dal Kootu": [
+      {
+         "GI": 11,
+         "Grams": 35,
+         "Protein": 0,
+         "Carb": 8,
+         "DF": 1,
+         "TF": 3,
+         "GL": 1,
+         "CAL": 59,
+         "FF": 3.02,
+         "FIELD11": ""
+      }
+   ],
+   "Beet Root Kootu": [
+      {
+         "GI": 64,
+         "Grams": 50,
+         "Protein": 6,
+         "Carb": 18,
+         "DF": 5,
+         "TF": 2,
+         "GL": 12,
+         "CAL": 114,
+         "FF": 2.51,
+         "FIELD11": ""
+      }
+   ],
+   "Carrot Kootu": [
+      {
+         "GI": 71,
+         "Grams": 50,
+         "Protein": 1.7,
+         "Carb": 4.4,
+         "DF": 2.4,
+         "TF": 5.1,
+         "GL": 3,
+         "CAL": 70.3,
+         "FF": 2.83,
+         "FIELD11": ""
+      }
+   ],
+   "Drumstick Leaves Kootu": [
+      {
+         "GI": 10,
+         "Grams": 50,
+         "Protein": 9.4,
+         "Carb": 8.3,
+         "DF": 2,
+         "TF": 1.4,
+         "GL": 1,
+         "CAL": 83.4,
+         "FF": 2.98,
+         "FIELD11": ""
+      }
+   ],
+   "Drumstick  ": [
+      {
+         "GI": 10,
+         "Grams": 100,
+         "Protein": 2.1,
+         "Carb": 8.5,
+         "DF": 3.2,
+         "TF": 0.2,
+         "GL": 1,
+         "CAL": 44.2,
+         "FF": 3.68,
+         "FIELD11": ""
+      }
+   ],
+   "": [
+      {
+         "GI": null,
+         "Grams": null,
+         "Protein": null,
+         "Carb": null,
+         "DF": null,
+         "TF": null,
+         "GL": null,
+         "CAL": null,
+         "FF": null,
+         "FIELD11": ""
+      },
+      {
+         "GI": null,
+         "Grams": null,
+         "Protein": null,
+         "Carb": null,
+         "DF": null,
+         "TF": null,
+         "GL": null,
+         "CAL": null,
+         "FF": null,
+         "FIELD11": ""
+      },
+      {
+         "GI": null,
+         "Grams": null,
+         "Protein": null,
+         "Carb": null,
+         "DF": null,
+         "TF": null,
+         "GL": null,
+         "CAL": null,
+         "FF": null,
+         "FIELD11": ""
+      },
+      {
+         "GI": null,
+         "Grams": null,
+         "Protein": null,
+         "Carb": null,
+         "DF": null,
+         "TF": null,
+         "GL": null,
+         "CAL": null,
+         "FF": null,
+         "FIELD11": ""
+      },
+      {
+         "GI": null,
+         "Grams": null,
+         "Protein": null,
+         "Carb": null,
+         "DF": null,
+         "TF": null,
+         "GL": null,
+         "CAL": null,
+         "FF": null,
+         "FIELD11": ""
+      },
+      {
+         "GI": null,
+         "Grams": null,
+         "Protein": null,
+         "Carb": null,
+         "DF": null,
+         "TF": null,
+         "GL": null,
+         "CAL": null,
+         "FF": null,
+         "FIELD11": ""
+      },
+      {
+         "GI": null,
+         "Grams": null,
+         "Protein": null,
+         "Carb": null,
+         "DF": null,
+         "TF": null,
+         "GL": null,
+         "CAL": null,
+         "FF": null,
+         "FIELD11": ""
+      },
+      {
+         "GI": null,
+         "Grams": null,
+         "Protein": null,
+         "Carb": null,
+         "DF": null,
+         "TF": null,
+         "GL": null,
+         "CAL": null,
+         "FF": null,
+         "FIELD11": ""
+      },
+      {
+         "GI": null,
+         "Grams": null,
+         "Protein": null,
+         "Carb": null,
+         "DF": null,
+         "TF": null,
+         "GL": null,
+         "CAL": null,
+         "FF": null,
+         "FIELD11": ""
+      },
+      {
+         "GI": null,
+         "Grams": null,
+         "Protein": null,
+         "Carb": null,
+         "DF": null,
+         "TF": null,
+         "GL": null,
+         "CAL": null,
+         "FF": null,
+         "FIELD11": ""
+      },
+      {
+         "GI": null,
+         "Grams": null,
+         "Protein": null,
+         "Carb": null,
+         "DF": null,
+         "TF": null,
+         "GL": null,
+         "CAL": null,
+         "FF": null,
+         "FIELD11": ""
+      },
+      {
+         "GI": null,
+         "Grams": null,
+         "Protein": null,
+         "Carb": null,
+         "DF": null,
+         "TF": null,
+         "GL": null,
+         "CAL": null,
+         "FF": null,
+         "FIELD11": ""
+      },
+      {
+         "GI": null,
+         "Grams": null,
+         "Protein": null,
+         "Carb": null,
+         "DF": null,
+         "TF": null,
+         "GL": null,
+         "CAL": null,
+         "FF": null,
+         "FIELD11": ""
+      },
+      {
+         "GI": null,
+         "Grams": null,
+         "Protein": null,
+         "Carb": null,
+         "DF": null,
+         "TF": null,
+         "GL": null,
+         "CAL": null,
+         "FF": null,
+         "FIELD11": ""
+      },
+      {
+         "GI": null,
+         "Grams": null,
+         "Protein": null,
+         "Carb": null,
+         "DF": null,
+         "TF": null,
+         "GL": null,
+         "CAL": null,
+         "FF": null,
+         "FIELD11": ""
+      },
+      {
+         "GI": null,
+         "Grams": null,
+         "Protein": null,
+         "Carb": null,
+         "DF": null,
+         "TF": null,
+         "GL": null,
+         "CAL": null,
+         "FF": null,
+         "FIELD11": ""
+      },
+      {
+         "GI": null,
+         "Grams": null,
+         "Protein": null,
+         "Carb": null,
+         "DF": null,
+         "TF": null,
+         "GL": null,
+         "CAL": null,
+         "FF": null,
+         "FIELD11": ""
+      },
+      {
+         "GI": null,
+         "Grams": null,
+         "Protein": null,
+         "Carb": null,
+         "DF": null,
+         "TF": null,
+         "GL": null,
+         "CAL": null,
+         "FF": null,
+         "FIELD11": ""
+      },
+      {
+         "GI": null,
+         "Grams": null,
+         "Protein": null,
+         "Carb": null,
+         "DF": null,
+         "TF": null,
+         "GL": null,
+         "CAL": null,
+         "FF": null,
+         "FIELD11": ""
+      },
+      {
+         "GI": null,
+         "Grams": null,
+         "Protein": null,
+         "Carb": null,
+         "DF": null,
+         "TF": null,
+         "GL": null,
+         "CAL": null,
+         "FF": null,
+         "FIELD11": ""
+      },
+      {
+         "GI": null,
+         "Grams": null,
+         "Protein": null,
+         "Carb": null,
+         "DF": null,
+         "TF": null,
+         "GL": null,
+         "CAL": null,
+         "FF": null,
+         "FIELD11": ""
+      },
+      {
+         "GI": null,
+         "Grams": null,
+         "Protein": null,
+         "Carb": null,
+         "DF": null,
+         "TF": null,
+         "GL": null,
+         "CAL": null,
+         "FF": null,
+         "FIELD11": ""
+      },
+      {
+         "GI": null,
+         "Grams": null,
+         "Protein": null,
+         "Carb": null,
+         "DF": null,
+         "TF": null,
+         "GL": null,
+         "CAL": null,
+         "FF": null,
+         "FIELD11": ""
+      },
+      {
+         "GI": null,
+         "Grams": null,
+         "Protein": null,
+         "Carb": null,
+         "DF": null,
+         "TF": null,
+         "GL": null,
+         "CAL": null,
+         "FF": null,
+         "FIELD11": ""
+      },
+      {
+         "GI": null,
+         "Grams": null,
+         "Protein": null,
+         "Carb": null,
+         "DF": null,
+         "TF": null,
+         "GL": null,
+         "CAL": null,
+         "FF": null,
+         "FIELD11": ""
+      },
+      {
+         "GI": null,
+         "Grams": null,
+         "Protein": null,
+         "Carb": null,
+         "DF": null,
+         "TF": null,
+         "GL": null,
+         "CAL": null,
+         "FF": null,
+         "FIELD11": ""
+      },
+      {
+         "GI": null,
+         "Grams": null,
+         "Protein": null,
+         "Carb": null,
+         "DF": null,
+         "TF": null,
+         "GL": null,
+         "CAL": null,
+         "FF": null,
+         "FIELD11": ""
+      },
+      {
+         "GI": null,
+         "Grams": null,
+         "Protein": null,
+         "Carb": null,
+         "DF": null,
+         "TF": null,
+         "GL": null,
+         "CAL": null,
+         "FF": null,
+         "FIELD11": ""
+      },
+      {
+         "GI": null,
+         "Grams": null,
+         "Protein": null,
+         "Carb": null,
+         "DF": null,
+         "TF": null,
+         "GL": null,
+         "CAL": null,
+         "FF": null,
+         "FIELD11": ""
+      },
+      {
+         "GI": null,
+         "Grams": null,
+         "Protein": null,
+         "Carb": null,
+         "DF": null,
+         "TF": null,
+         "GL": null,
+         "CAL": null,
+         "FF": null,
+         "FIELD11": ""
+      }
+   ],
+   "drum stick": [
+      {
+         "GI": null,
+         "Grams": null,
+         "Protein": null,
+         "Carb": null,
+         "DF": null,
+         "TF": null,
+         "GL": null,
+         "CAL": null,
+         "FF": null,
+         "FIELD11": ""
+      }
+   ]
+}
