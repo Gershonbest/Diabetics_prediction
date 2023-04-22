@@ -5,6 +5,7 @@ from os import path
 import numpy as np
 import pandas as pd
 import json
+from calculation import body_mass_index
 
 
 
@@ -15,10 +16,32 @@ app = Flask(__name__)
 ML_model = pickle.load(open('Model/random_f2.pkl', 'rb'))
 
 
-@app.route('/') # homepage
+@app.route('/', methods = ['GET', 'POST'] ) # homepage
 def home():
-     return render_template('home.html')
     
+     return render_template('home.html')
+     
+@app.route('/check_bmi', methods= ['POST','GET'])
+def check_bmi():
+     
+    bmi_result = 0
+
+    if request.method == 'POST':
+          mass = request.form.get("mass")
+          height = request.form.get("height")
+          print(mass)
+          # bmi = body_mass_index(mass, height)
+     
+     
+          # bmi_result = bmi.bmi_kg_meter()
+          
+          bmi_result= int(float(mass) / (float(height)*float(height)))
+    else:
+        pass
+    if bmi_result != 0:
+          return render_template('bmi_calc.html', bmi_results = bmi_result)
+    else:
+          return render_template('bmi_calc.html')
     
 # @app.route('/login', methods= ['GET', 'POST']) # login page
 @app.route('/login') # login page

@@ -26,10 +26,10 @@
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto my-2 my-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="#about">BMI Calculator</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{{ url_for('home') }}">BMI Calculator</a></li>
+                        <!-- <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
                         <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li> -->
                     </ul>
                 </div>
             </div>
@@ -54,14 +54,38 @@
             </div>
         </header>
         <!-- About-->
-        <section class="page-section bg-primary" id="about">
+        <section class="page-section bg-primary" >
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-8 text-center">
-                        <h2 class="text-white mt-0">We've got what you need!</h2>
-                        <hr class="divider divider-light" />
-                        <p class="text-white-75 mb-4">Start Bootstrap has everything you need to get your new website up and running in no time! Choose one of our open source, free to download, and easy to use themes! No strings attached!</p>
-                        <a class="btn btn-light btn-xl" href="#services">Get Started!</a>
+                        <h2 class="text-white mt-0">Calculate your body mass index</h2>
+                        <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
+                            <div class="col-lg-6">
+                               
+                                <form action="/" method="post"></form>
+                                   
+                                    <!-- <div class="form-floating mb-3">
+                                        <input class="form-control" id="mass" type="text" placeholder="Body mass in kg" data-sb-validations="required" />
+                                        <label for="mass">mass</label>
+                                        <div class="invalid-feedback" data-sb-feedback="name:required">Mass is required.</div>
+                                    </div>
+                                
+                                     <div class="form-floating mb-3">
+                                        <input class="form-control" id="height" type="text" placeholder="Enter your Height in meters" data-sb-validations="required" />
+                                        <label for="height">height</label>
+                                        <div class="invalid-feedback" data-sb-feedback="password:required">Height is required.</div>
+                                    </div> -->
+
+                                    <input class="form-control" type="text" name="mass" placeholder="Body Mass in KG" required="required" /><br>
+                                    <input class="form-control" type="text" name="height" placeholder="Height in meters" required="required" /><br>
+                                    
+                                    <!-- <button class="btn btn-light btn-xl" type="submit">Calculate BMI</button> -->
+                                    <button type="submit" class="btn btn-primary btn-block btn-large">Calculate</button>
+                                </form>
+                                <h1>{{bmi_result}} </h1> 
+                            </div>
+                        </div>
+                        
                     </div>
                 </div>
             </div>
