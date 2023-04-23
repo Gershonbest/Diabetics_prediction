@@ -6,6 +6,7 @@ class body_mass_index():
         self.height = height 
         
         
+        
     def bmi_pounds_inch(self):
         
         """
@@ -16,7 +17,9 @@ class body_mass_index():
         H = self.height
         M = self.mass
         
-        result = (M / (H * H))* 703
+        height = float(H)/100
+        mass = float(M)
+        result = round((mass / (height * height))* 703,2)
         return result
     
     
@@ -24,6 +27,7 @@ class body_mass_index():
         
         H = self.height
         M = self.mass
-        
-        return float(M / H)
+        mass = float(M)
+        height = float(H)
+        return round(float(mass / (height*height)),2)
         

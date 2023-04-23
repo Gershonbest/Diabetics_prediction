@@ -30,16 +30,31 @@ def check_bmi():
           mass = request.form.get("mass")
           height = request.form.get("height")
           print(mass)
-          # bmi = body_mass_index(mass, height)
+          bmi = body_mass_index(mass, height)
      
      
-          # bmi_result = bmi.bmi_kg_meter()
+          bmi_result = bmi.bmi_kg_meter()
           
-          bmi_result= int(float(mass) / (float(height)*float(height)))
+          # bmi_result= int(float(mass) / (float(height)*float(height)))
     else:
         pass
     if bmi_result != 0:
-          return render_template('bmi_calc.html', bmi_results = bmi_result)
+         
+         if (bmi_result <18.5):
+              message = "You are under weighted with your BMI: {:.2f}".format(bmi_result)
+              return render_template('bmi_calc.html', bmi_results = message)
+         
+         elif ((bmi_result >= 18.5) & (bmi_result < 25)):
+              message = "You have a healthy weight with your BMI: {:.2f}".format(bmi_result)
+              return render_template('bmi_calc.html', bmi_results = message)
+         
+         elif ((bmi_result >= 25) & (bmi_result < 30)):
+              message = "You are Over weighted with your BMI: {:.2f}".format(bmi_result)
+              return render_template('bmi_calc.html', bmi_results = message)
+         
+         else:
+              message= "You are on obesity stage with your BMI: {:.2f}".format(bmi_result)
+              return render_template('bmi_calc.html', bmi_results = message)
     else:
           return render_template('bmi_calc.html')
     
