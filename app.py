@@ -103,7 +103,7 @@ def predict():
          
     else:
          prediction = "you're prediabetics positive"
-    return render_template('predict.html', prediction_text= prediction)
+    return render_template('index3.html', prediction_text= prediction)
      # return render_template('predict.html')
      
 @app.route('/predict_api', methods=['POST'])
@@ -129,7 +129,7 @@ def predict_api():
          
 
 #     return (prediction)
-    return render_template('predict.html', prediction_text= prediction)
+    return render_template('index3.html', prediction_text= prediction)
      # return render_template('predict.html')
 
 if __name__ == '__main__':
