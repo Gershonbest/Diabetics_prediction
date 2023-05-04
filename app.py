@@ -6,12 +6,20 @@ import numpy as np
 import pandas as pd
 import json
 from calculation import body_mass_index
+from flask_mysqldb import MySQL
 
 
 
 app = Flask(__name__)
 
+app.config['MYSQL_HOST'] = 'sql7.freemysqlhosting.net'
+app.config['MYSQL_USER'] = 'sql7613206'
+app.config['MYSQL_PASSWORD'] = '35J2rdLMU8'
+app.config['MYSQL_DB'] = 'sql7613206'
+app.config['MYSQL_CURSORCLASS'] = 'DictCursor'
 
+
+mysql = MySQL(app)
 # we load the pickle file as the model
 ML_model = pickle.load(open('Model/random_f2.pkl', 'rb'))
 
@@ -131,6 +139,15 @@ def predict_api():
 #     return (prediction)
     return render_template('index3.html', prediction_text= prediction)
      # return render_template('predict.html')
+     
+@app.route('/log')
+def log():
+    cur = mysql.connection.cursor()
+    # cur.execute("SELECT * FROM health_record ORDER BY ID DESC")
+    cur.execute("SELECT id, patient_reg_no, BPM, SpO2, body_temp, time, date FROM health_record")
+    data = cur.fetchall()
+    # return str(data)
+    return render_template('log.html', data= data)
 
 if __name__ == '__main__':
     app.run(debug=True)
