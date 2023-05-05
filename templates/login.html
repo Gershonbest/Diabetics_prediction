@@ -63,57 +63,15 @@
             </div>
             <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
                 <div class="col-lg-6">
-                    <!-- * * * * * * * * * * * * * * *-->
-                    <!-- * * SB Forms Contact Form * *-->
-                    <!-- * * * * * * * * * * * * * * *-->
-                    <!-- This form is pre-integrated with SB Forms.-->
-                    <!-- To make this form functional, sign up at-->
-                    <!-- https://startbootstrap.com/solution/contact-forms-->
-                    <!-- to get an API token!-->
-                    <form id="contactForm" method ="POST" data-sb-form-api-token="API_TOKEN">
-                        <!-- Name input-->
-                        <div class="form-floating mb-3">
-                            <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
-                            <label for="username">Username</label>
-                            <div class="invalid-feedback" data-sb-feedback="name:required">Username is required.</div>
-                        </div>
-                         <!-- Password input-->
-                         <div class="form-floating mb-3">
-                            <input class="form-control" id="pwd" type="password" placeholder="Enter your password..." data-sb-validations="required" />
-                            <label for="password">Password</label>
-                            <div class="invalid-feedback" data-sb-feedback="password:required">Password is required.</div>
-                        </div>
-                        <!-- Phone number input-->
-                        <!-- <div class="form-floating mb-3">
-                            <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
-                            <label for="phone">Phone number</label>
-                            <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
-                        </div> -->
-                        <!-- Message input-->
-                        <!-- <div class="form-floating mb-3">
-                            <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
-                            <label for="message">Message</label>
-                            <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
-                        </div> -->
-                        <!-- Submit success message-->
-                        <!---->
-                        <!-- This is what your users will see when the form-->
-                        <!-- has successfully submitted-->
-                        <div class="d-none" id="submitSuccessMessage">
-                            <div class="text-center mb-3">
-                                <div class="fw-bolder">Form submission successful!</div>
-                                To activate this form, sign up at
-                                <br />
-                                <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                            </div>
-                        </div>
-                        <!-- Submit error message-->
-                        <!---->
-                        <!-- This is what your users will see when there is-->
-                        <!-- an error submitting the form-->
-                        <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
-                        <!-- Submit Button-->
-                        <div class="d-grid"><button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Login</button></div>
+                    
+                    <form action="{{url_for('login')}}" method="post">
+
+                        <input class="form-control" type="text" name="mass" placeholder="Body Mass in KG" required="required" />
+                        <label for="Mass">Mass</label>
+                        <input class="form-control" type="text" name="height" placeholder="Height in meters" required="required" />
+                        <label for="Height">Height</label><br><br>
+                        <!-- <button class="btn btn-light btn-xl" type="submit">Calculate BMI</button> -->
+                        <button type="submit" class="btn btn-primary btn-block btn-large">Calculate</button>
                     </form>
                 </div>
             </div>
