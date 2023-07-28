@@ -36,27 +36,8 @@
         <div class="container px-4 px-lg-5">
             <div class="row gx-4 gx-lg-5 justify-content-center">
                 <div class="col-lg-8 text-center">
-                    <h2 class="text-white mt-0">Calculate your body mass index</h2>
-                    <img src="{{url_for('static', filename='css/img/BMI.jpg')}}" alt="Girl in a jacket" width="300"
-                        height="200" style="vertical-align:middle;margin:0px 50px"><br><br><br>
-                    <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
-                        <div class="col-lg-6">
 
-                            <form action="{{url_for('check_bmi')}}" method="post">
-
-                                <input class="form-control" type="text" name="mass" placeholder="Body Mass in KG"
-                                    required="required" />
-                                <label for="Mass">Mass</label>
-                                <input class="form-control" type="text" name="height" placeholder="Height in meters"
-                                    required="required" />
-                                <label for="Height">Height</label><br><br>
-                                <!-- <button class="btn btn-light btn-xl" type="submit">Calculate BMI</button> -->
-                                <button type="submit" class="btn btn-primary btn-block btn-large">Calculate</button>
-                            </form>
-                            <h3>{{bmi_results}} </h3>
-                        </div>
-                    </div>
-
+                    {{prediction_text}}
                 </div>
             </div>
         </div>
