@@ -6,21 +6,13 @@ import numpy as np
 import pandas as pd
 import json
 from calculation import body_mass_index
-from flask_mysqldb import MySQL
-import pyrebase
+# from flask_mysqldb import MySQL
+# import pyrebase
 
-config = {
-  "apiKey": "AIzaSyDYj1iGWF4oEnnWgpFD0irW6Aa-d1vHLz0",
-  "authDomain": "patient-log-dd421.firebaseapp.com",
-  "projectId": "patient-log-dd421",
-  "storageBucket": "patient-log-dd421.appspot.com",
-  "messagingSenderId": "914441984103",
-  "appId": "1:914441984103:web:04debe8be38122298adcc2",
-  "measurementId": "G-SZHHW7CB6N"
-}
+# from sklearn.exceptions import InconsistentVersionWarning
+# warnings.simplefilter("error", InconsistentVersionWarning)
 
-firebase = pyrebase.initialize_app(config)
-auth = firebase.auth()
+
 
 app = Flask(__name__)
 
@@ -33,10 +25,13 @@ app = Flask(__name__)
 
 # mysql = MySQL(app)
 # we load the pickle file as the model
-ML_model = pickle.load(open('Model/random_f2.pkl', 'rb'))
+ML_model = pickle.load(open('Model/randomforest_model.pkl', 'rb'))
+# try:
+#    ML_model = pickle.loads(open('Model/random_f2.pkl', 'rb'))
+# except InconsistentVersionWarning as w:
+#    print(w.original_sklearn_version)
 
-
-@app.route('/', methods = ['GET', 'POST'] ) # homepage
+@app.route('/', methods = ['GET', 'POST'] ) 
 def home():
     
      return render_template('home.html')
@@ -115,18 +110,43 @@ def predict():
     print(final_input)
     output= ML_model.predict(final_input)
     
-    if output[0] == 0.0:
-         prediction = 'Congratulation you are diabetics free'
+    if output[0] == 1.0:
+         prediction = 'Hypoglycemia 2'
+         return render_template('hypo2.html', prediction_text= prediction)
          
-    elif output[0] == 1.0:
-         prediction = 'You are Diabetics type 2 positive'
+    elif output[0] == 2.0:
+         prediction = 'Hypoglycemia 1'
+         return render_template('hypo1.html', prediction_text= prediction)
+
+    elif output[0] == 3.0:
+         prediction = 'Normal'
+         return render_template('normal.html', prediction_text= prediction)
          
+    elif output[0] == 4.0:
+         prediction = "you're prediabetics positive"
+         return render_template('pdiabetes.html', prediction_text= prediction)
     else:
          prediction = "you're prediabetics positive"
-    return render_template('index3.html', prediction_text= prediction)
+         return render_template('diabetes.html', prediction_text= prediction)
+
+#     return render_template('index3.html', prediction_text= prediction)
      # return render_template('predict.html')
      
+@app.route('/api/predict', methods= ['POST'])
+def api_predict():
      
+    bmi = request.form.get('bmi')
+    data=[float(x) for x in request.form.values()]
+    print(data)
+    final_input = np.array(data).reshape((1, -1))
+     
+       
+       
+    print(final_input)
+    output= ML_model.predict(final_input)
+    
+   
+#     return render_template('index3.html', prediction_text= prediction)
 # @app.route('/log')
 # def log():
 #     cur = mysql.connection.cursor()
