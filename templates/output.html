@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    <link rel="stylesheet" href="{{url_for('static', filename='css/responsive.css')}}">
+
+</head>
+
+<body>
+    <main>
+        <img src="{{url_for('static', filename='css/img/image2.png')}}" alt="A male medical practioner">
+        <article>
+            <h1>{{prediction_text}}</h1>
+            <p>{{info}}</p>
+            <!-- <button href="{{ url_for('home') }}">To Home Page</button> -->
+            <form action="{{ url_for('home') }}">
+                <button type="submit">To Home Page</button>
+            </form>
+        </article>
+    </main>
+
+
+    <!-- Footer-->
+    <footer class="bg-light py-5">
+        <div class="container px-4 px-lg-5">
+            <div class="small text-center text-muted">Copyright &copy; 2023 - NEU Artificial Intelligence Research
+                Center</div>
+        </div>
+    </footer>
+</body>
+
+</html>

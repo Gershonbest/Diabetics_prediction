@@ -34,18 +34,21 @@
                 <div class="navbar-nav">
                     <a class="nav-link active" aria-current="page" href="{{ url_for('home') }}">Home</a>
                     <a class="nav-link" href="{{ url_for('check_bmi') }}">BMI calculator</a>
-                    <a class="nav-link" href="#">Pricing</a>
-                    <a class="nav-link disabled">Disabled</a>
+                    <!-- <a class="nav-link" href="#">Pricing</a>
+                    <a class="nav-link disabled">Disabled</a> -->
                 </div>
             </div>
         </div>
     </nav>
+    <div class="row bi-grid-1x2"><img src="{{url_for('static', filename='css/img/diabetes.png')}}"
+            alt="Girl in a jacket" width="300" height="200"><br>
+    </div>
 
     <section class="page-section" id="contact">
         <div class="container px-4 px-lg-5">
             <div class="row gx-4 gx-lg-5 justify-content-center">
                 <div class="col-lg-8 col-xl-6 text-center">
-                    <h2 class="mt-0">Enter the information to know your diabetics status</h2>
+                    <h2 class="mt-0">Enter the information from your laboratory test to know your diabetics status</h2>
                     <hr class="divider" />
                     <!-- <p class="text-muted mb-5">Ready to start your next project with us? Send us a messages and we will get back to you as soon as possible!</p> -->
                 </div>
@@ -58,35 +61,57 @@
                         <form action="{{ url_for('predict')}}" method="post">
 
                             <label for="">Patients Gender: Use 1 for male and 0 for female</label><br>
-                            <input class="form-control" type="text" name="Gender"
+                            <input class="form-control" type="number" min="0" step="1" max="1" name="Gender"
                                 placeholder="Gender 1 for M and 0 for F" required="required" /><br>
-                            <label for="">Patients Age in years</label><br><br>
-                            <input class="form-control" type="text" name="Age" placeholder="Enter your Age"
+
+                            <label for="">Patients Age in years</label><br>
+                            <input class="form-control" type="number" name="Age" placeholder="Enter your Age"
                                 required="required" /><br>
 
-                            <label for="">Enter your Urea level</label><br>
-                            <input class="form-control" type="text" name="INDUS" placeholder="Urea"
-                                required="required" /><br>
+                            <label for="">Enter your Urea level approximately ranging from 1.8 to 7.1 mmol/L</label><br>
+                            <input class="form-control" type="number" min="1.8" step="0.1" max="7.1" name="Urea"
+                                placeholder="Urea" required="required" /><br>
 
-                            <label for="">Enter your Urea level</label><br>
-                            <input class="form-control" type="text" name="CHAS" placeholder="Creatinine Ratio "
-                                required="required" /><br>
-                            <input class="form-control" type="text" name="NOX" placeholder="Blood sugar level"
-                                required="required" /><br>
-                            <input class="form-control" type="text" name="RM" placeholder="Cholesterol"
-                                required="required" /><br>
-                            <input class="form-control" type="text" name="TR" placeholder="Triglycerides"
-                                required="required" /><br>
-                            <input class="form-control" type="text" name="DIS" placeholder="HDL Cholesterol"
-                                required="required" /><br>
-                            <input class="form-control" type="text" name="RAD" placeholder="LDL Cholesterol"
-                                required="required" /><br>
-                            <input class="form-control" type="text" name="TAX" placeholder="DLDL Cholesterol"
-                                required="required" /><br>
-                            <input class="form-control" type="text" name="bmi" placeholder="Body Mass Index"
-                                required="required" /><br>
+                            <label for="">Enter your Creatinine Ratio level approximately ranging from 52 to 115
+                                umol/L</label><br>
+                            <input class="form-control" type="number" min="52" step="0.1" max="115" name="Creatinine"
+                                placeholder="Creatinine Ratio " required="required" /><br>
 
-                            <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+                            <label for="">Enter your Hemoglobin A1c test result for blood sugar level approximately
+                                ranging from 0 to 25 %</label><br>
+                            <input class="form-control" type="number" min="0" max="25" name="Hemoglobin"
+                                placeholder="Blood sugar level" required="required" /><br>
+
+                            <label for="">Enter your Total Cholesterol level (Max 6.2 mmol/L)</label><br>
+                            <input class="form-control" type="number" min="0" step="0.1" max="6.2" name="Cholesterol"
+                                placeholder="Cholesterol" required="required" /><br>
+
+                            <label for="">Enter your Triglycerides (Max 10 mmol/L)</label><br>
+                            <input class="form-control" type="number" min="0" max="10" name="Triglycerides"
+                                placeholder="Triglycerides" required="required" /><br>
+
+                            <label for="">Enter your HDL (high-density lipoprotein) cholesterol (Min 0.5 mmol/L)
+                            </label><br>
+                            <input class="form-control" type="number" min="0" max="4" name="HDL"
+                                placeholder="HDL Cholesterol" required="required" /><br>
+
+                            <label for="">Enter your High levels of LDL cholesterol (max 10 mmol/L) </label><br>
+                            <input class="form-control" type="number" min="0" max="10" name="LDL"
+                                placeholder="LDL Cholesterol" required="required" /><br>
+
+                            <label for="">Enter your VLDL cholesterol (very-low-density lipoprotein) max 40 mg/dL
+                            </label><br>
+                            <input class="form-control" type="number" min="0" max="40" name="VLDL"
+                                placeholder="DLDL Cholesterol" required="required" /><br>
+
+                            <label for="">Enter your Body mass index, check the BMI page to Calculate your BMI
+                            </label><br>
+                            <input class="form-control" type="number" name="bmi" placeholder="Body Mass Index"
+                                required="required" /><br>
+                            <div class="button-container">
+                                <button type="submit" class="original-button">Predict</button>
+                            </div>
+                            <!-- <button type="submit" class="original-button">Predict</button> -->
 
                         </form><br>
                         <h2>{{prediction_text}} </h2>
