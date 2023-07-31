@@ -25,7 +25,7 @@ app = Flask(__name__)
 
 # mysql = MySQL(app)
 # we load the pickle file as the model
-ML_model = pickle.load(open('Model/randomforest_model.pkl', 'rb'))
+ML_model = pickle.load(open('randomforest_model.pkl', 'rb'))
 # try:
 #    ML_model = pickle.loads(open('Model/random_f2.pkl', 'rb'))
 # except InconsistentVersionWarning as w:
@@ -111,23 +111,48 @@ def predict():
     output= ML_model.predict(final_input)
     
     if output[0] == 1.0:
-         prediction = 'Hypoglycemia 2'
-         return render_template('hypo2.html', prediction_text= prediction)
+         prediction = 'Hypoglycemia Stage 2 (HG 2)'
+         information = '''
+                       You are in Hypoglycemia Stage 2. This indicates more severe low blood sugar levels. 
+                       Take immediate action to avoid hypoglycemic events by consuming fast-acting carbohydrates, 
+                       and seek medical attention if needed.
+                       '''
+         return render_template('output.html', prediction_text= prediction, info = information)
          
     elif output[0] == 2.0:
-         prediction = 'Hypoglycemia 1'
-         return render_template('hypo1.html', prediction_text= prediction)
+         prediction = 'Hypoglycemia Stage 1 (HG 1)'
+         information = '''
+                       You are in Hypoglycemia Stage 1. Be cautious of low blood sugar levels and 
+                       make sure to eat regular meals and snacks to prevent hypoglycemic episodes.
+                       Follow your doctor's advice on managing blood sugar levels.
+                    '''
+         return render_template('output.html', prediction_text= prediction, info = information)
 
     elif output[0] == 3.0:
-         prediction = 'Normal'
-         return render_template('normal.html', prediction_text= prediction)
+         prediction = 'NORMAL'
+         information = '''
+                         Congratulations! Your test results indicate that you are currently in the normal range for blood glucose levels.
+                         Continue to maintain a healthy lifestyle with balanced nutrition
+                         and regular exercise to stay in this optimal range.
+                        '''
+         return render_template('output.html', prediction_text= prediction, info = information)
          
     elif output[0] == 4.0:
-         prediction = "you're prediabetics positive"
-         return render_template('pdiabetes.html', prediction_text= prediction)
+         prediction = "PREDIABETES"
+         information = '''
+                        Your results show that you are in the prediabetes stage. 
+                        Take this as a warning sign and make positive lifestyle changes now. 
+                        Increase physical activity, eat a balanced diet, and manage stress to reduce your risk of developing diabetes.
+                       '''
+         return render_template('output.html', prediction_text= prediction, info = information)
     else:
-         prediction = "you're prediabetics positive"
-         return render_template('diabetes.html', prediction_text= prediction)
+         prediction = "DIABETES"
+         information = '''
+                       You have been diagnosed with diabetes. Don't worry; with proper management, you can lead a fulfilling life. 
+                       Follow your doctor's advice, take medications as prescribed, 
+                       monitor blood glucose levels, and adopt a healthy lifestyle to control your diabetes effectively.
+                       '''
+         return render_template('output.html', prediction_text= prediction, info = information)
 
 #     return render_template('index3.html', prediction_text= prediction)
      # return render_template('predict.html')
